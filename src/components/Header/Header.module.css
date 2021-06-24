@@ -1,0 +1,24 @@
+.header{
+  border-bottom: 1px solid #eaeaea;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ブロックレベルは改行が入る
+インライン要素は改行がはいらない
+インラインブロックは横並びにできて幅高さを設定できる */
+.anchor{
+  display: inline-block;
+  padding: 8px 24px;
+  font-size: 1.2rem;
+}
+
+
+.anchor:hover,
+.anchor:focus,
+.anchor:active {
+  color: #0070f3;
+
+}
